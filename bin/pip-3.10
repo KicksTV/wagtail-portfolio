@@ -1,4 +1,4 @@
-#!/home/kix/wagtail/bin/python
+#!/home/kix/wagtail-portfolio/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

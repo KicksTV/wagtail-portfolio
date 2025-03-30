@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo service pritunl start
+sudo service mongod start
+
+cd /home/kix/wagtail-portfolio && . bin/activate && python manage.py runserver 0.0.0.0:8888 --settings=KiX.settings.production
+

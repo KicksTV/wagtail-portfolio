@@ -32,7 +32,7 @@ export-env {
       }
     }
 
-    let virtual_env = r#'/home/kix/wagtail'#
+    let virtual_env = r#'/home/kix/wagtail-portfolio'#
     let bin = r#'bin'#
 
     let is_windows = ($nu.os-info.family) == 'windows'
